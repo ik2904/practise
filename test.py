@@ -10,3 +10,7 @@ vector_no= np.array([2,7,8])
 
 print(scalar_no)
 print(vector_no)
+mat1=np.array([[1,2,3,4],[5,6,7,8]])
+mat2=np.array([[1,2,3,4],[5,6,7,8]])
+mul=mat1@mat2
+print(mul)

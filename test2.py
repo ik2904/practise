@@ -25,7 +25,22 @@ m2=np.array([[5,2,0],[7,8,6],[2,1,9]])
 # pro=np.kron(m1,m2)
 # print(pro)
 
-a=2+3j
-print(a)
-print(a.real)
-print(a.imag)
+# a=2+3j
+# print(a)
+# print(a.real)
+# print(a.imag)
+import numpy as np
+angl = 30
+
+print(np.sin(angl))
+print(np.cos(angl))
+print(np.tan(angl))
+
+angle = np.deg2rad(30)
+print("------------------------------------------------------------------------------")
+print(1/np.sin(angle))
+print(np.sin(angle))
+
+print(np.cos(angle))
+print(np.tan(angle))
+print(np.sin(np.pi/6))

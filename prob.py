@@ -1,12 +1,15 @@
 import numpy as np
+from statistics import mode
+# dice=np.random.choice([1,2,3,4,5,6],size=2)
+# even=np.sum((dice==2)|(dice==4)|(dice==6))
+# probability=even/2
+# print(probability)
+data = np.array([1,2,3,4,5,6,6,4,4,4,4,])
 
-results = np.random.choice(
-    ["Head", "Tail"],
-    size=1000
-)
+median = np.median(data)
 
-heads = np.sum(results == "Head")
-
-probability = heads / 1000
-
-print(probability)
+print(median)
+mode1=mode(data)
+print(mode1)
+st=np.std(data)
+print(st)

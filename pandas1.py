@@ -13,12 +13,12 @@ import pandas as p
 
 # series__--------------------------------------------------->
 # series is like a column in a table 
-a = [1, 7, 2]
+# a = [1, 7, 2]
 
-myvar = p.Series(a,index=[10,9,8])
+# myvar = p.Series(a,index=[10,9,8])
 
-print(myvar)
-print(myvar[10])
+# print(myvar)
+# print(myvar[10])
 
 # key value pair as series
 # days={"day1":"monday","day2":"tuesday","day3":"wednesday"}

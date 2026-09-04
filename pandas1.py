@@ -11,8 +11,8 @@ import pandas as p
 # print(p.__version__)
 #
 
-series__--------------------------------------------------->
-series is like a column in a table 
+# series__--------------------------------------------------->
+# series is like a column in a table 
 a = [1, 7, 2]
 
 myvar = p.Series(a,index=[10,9,8])

@@ -37,7 +37,12 @@
 # print(b)
 import numpy as np
 
-h=5
-p=2
-base=np.sqrt(h**2-p**2)
-print(base)
+# h=5
+# p=2
+# base=np.sqrt(h**2-p**2)
+# print(base)
+
+
+angle = np.rad2deg(np.pi / 6)
+
+print(np.rad2deg(np.pi/2))

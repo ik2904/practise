@@ -33,8 +33,8 @@ week={
 "weekend":["friday","saturday","sunday","monady"]
 
 }
-# w1=p.DataFrame(week)
-# # print(w1)
+w1=p.DataFrame(week)
+print(w1)
 # print(w1.loc[[1,2]])
 # # print(w1.loc[1])
 
@@ -42,11 +42,11 @@ week={
 
 # "saturday","sunday"
 
-data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
-}
+# data = {
+#   "calories": [420, 380, 390],
+#   "duration": [50, 40, 45]
+# }
 
-df = p.DataFrame(data, index = ["day1", "day2", "day3"])
+# df = p.DataFrame(data, index = ["day1", "day2", "day3"])
 
-print(df.loc["day2"])
+# print(df.loc["day2"])

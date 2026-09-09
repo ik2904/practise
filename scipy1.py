@@ -34,18 +34,36 @@ import numpy as n
 import scipy.sparse as gg
 
 
-arr=n.array([
+# arr=n.array([
 
 
-[0,  1,  0,  0],
-[1, 0, 0, 0],
-[0, 0, 0, 1],
-[0, 0, 1, 0]
+# [0,  1,  0,  0],
+# [1, 0, 0, 0],
+# [0, 0, 0, 1],
+# [0, 0, 1, 0]
 
-    ])
-gr=gg.csr_matrix(arr)
+#     ])
+# r=n.array([
+  
+
+# gr=gg.csr_matrix(arr)
 # gh=g.connected_components(gr)
 # print(gh)
 
-# DIJKSTRA ALGO 
-print(g.dijkstra(gr, return_predecessors=True, indices=0))
+# # DIJKSTRA ALGO 
+# print(g.dijkstra(gr))
+
+
+
+
+arr=n.array(
+   [ [0,8,0,1]
+,[0,0,1,0],
+[4,0,0,0],
+[0,2,9,0]
+])
+gm=gg.csr_matrix(arr)
+print(g.floyd_warshall(gm))
+print(g.bellman_ford(gm))
+
+

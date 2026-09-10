@@ -45,11 +45,21 @@ plt.suptitle("this is two plot")
 
 
 # THIS IS NOW EXAMPLE OF BAR GRAPGH
-x=np.array(["student 1","student2","student3","student4","student5"])
-y=np.array([3,1,2,1,10])
-# plt.bar(x,y)
-plt.bar(x,y,color="hotpink", width=0.5)
+# x=np.array(["student 1","student2","student3","student4","student5"])
+# y=np.array([3,1,2,1,10])
+# # plt.bar(x,y)
+# # plt.bar(x,y,color="hotpink", width=0.5)
 
+
+
+
+# THIS IS THE EXAMPLE OF HISTOGRAM
+
+
+
+x = [10, 12, 12, 15, 16, 17, 17, 18, 20, 22]
+plt.hist(x)
 plt.show()
+
 
 

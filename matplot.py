@@ -4,5 +4,14 @@ xaxis=np.array([1,2,4,6,8,10,12,14,15])
 yaxis=np.array([2,5,2,5,2,5,2,5,2])
 
 # plt.plot(yaxis)
-plt.plot(xaxis,yaxis,marker='3')
+plt.plot(xaxis,yaxis,marker='D',ls="dotted")
+
+
+font1 = {'color':'purple','size':10}
+
+
+
+plt.xlabel("distance")
+plt.ylabel("time")
+plt.title("showing distance and time",fontdict=font1)
 plt.show()

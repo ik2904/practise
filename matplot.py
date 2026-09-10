@@ -59,7 +59,9 @@ plt.suptitle("this is two plot")
 
 x=np.array([30,15,22,11,50])
 y=["maths","science","social science","hindi","english"]
-plt.pie(x,labels=y)
+mexplode=[0.1,0.1,0.1,0.1,0.1]
+plt.pie(x,labels=y ,explode=mexplode)
+
 
 
 plt.show()

@@ -63,7 +63,7 @@ mexplode=[0.1,0.1,0.1,0.1,0.1]
 mycolors = ["black", "skyblue", "b", "#4CAF50","hotpink"]
 
 plt.pie(x,labels=y ,explode=mexplode ,shadow=True,colors = mycolors)
-plt.legend()
+plt.legend(title="subjects")
 
 
 plt.show()

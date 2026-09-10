@@ -48,7 +48,7 @@ plt.suptitle("this is two plot")
 x=np.array(["student 1","student2","student3","student4","student5"])
 y=np.array([3,1,2,1,10])
 # plt.bar(x,y)
-plt.barh(x,y)
+plt.bar(x,y,color="hotpink", width=0.5)
 
 plt.show()
 

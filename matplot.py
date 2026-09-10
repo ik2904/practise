@@ -47,7 +47,8 @@ plt.suptitle("this is two plot")
 # THIS IS NOW EXAMPLE OF BAR GRAPGH
 x=np.array(["student 1","student2","student3","student4","student5"])
 y=np.array([3,1,2,1,10])
-plt.bar(x,y)
+# plt.bar(x,y)
+plt.barh(x,y)
 
 plt.show()
 

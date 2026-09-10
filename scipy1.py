@@ -67,3 +67,9 @@ print(g.floyd_warshall(gm))
 print(g.bellman_ford(gm))
 
 
+print(g.depth_first_order(gm,0))
+print(g.breadth_first_order(gm,0))
+
+
+
+

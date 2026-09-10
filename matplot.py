@@ -54,11 +54,14 @@ plt.suptitle("this is two plot")
 
 
 # THIS IS THE EXAMPLE OF HISTOGRAM
+# x = [10, 12, 12, 15, 16, 17, 17, 18, 20, 22]
+# plt.hist(x)
+
+x=np.array([30,15,22,11,50])
+y=["maths","science","social science","hindi","english"]
+plt.pie(x,labels=y)
 
 
-
-x = [10, 12, 12, 15, 16, 17, 17, 18, 20, 22]
-plt.hist(x)
 plt.show()
 
 

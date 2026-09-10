@@ -60,7 +60,9 @@ plt.suptitle("this is two plot")
 x=np.array([30,15,22,11,50])
 y=["maths","science","social science","hindi","english"]
 mexplode=[0.1,0.1,0.1,0.1,0.1]
-plt.pie(x,labels=y ,explode=mexplode ,shadow=True)
+mycolors = ["black", "skyblue", "b", "#4CAF50","hotpink"]
+
+plt.pie(x,labels=y ,explode=mexplode ,shadow=True,colors = mycolors)
 
 
 

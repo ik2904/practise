@@ -14,5 +14,5 @@ font1 = {'color':'purple','size':15}
 plt.xlabel("distance")
 plt.ylabel("time")
 plt.title("showing distance and time",fontdict=font1,loc='right')
-plt.grid()
+plt.grid(color="red",ls=":",linewidth=1)
 plt.show()

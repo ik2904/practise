@@ -14,20 +14,35 @@ font1 = {'color':'purple','size':15}
 # plt.xlabel("distance")
 # plt.ylabel("time")
 
-x=np.array([1,2,4,6,8,10,12,14,15])
-y=np.array([2,5,2,5,2,5,2,5,2])
-plt.subplot(2,1,1)
-plt.plot(x,y)
-plt.title("this is plot 1 ")
-x=np.array([1,2,4,6,8,10,12,14,15])
-y=np.array([2,5,2,5,2,5,2,5,2])
-plt.subplot(2,1,2)
-plt.plot(x,y)
-plt.title("this is plot 2",loc='right')
+# x=np.array([1,2,4,6,8,10,12,14,15])
+# y=np.array([2,5,2,5,2,5,2,5,2])
+# plt.subplot(2,1,1)
+# plt.plot(x,y)
+# plt.title("this is plot 1 ")
+# x1=np.array([1,3,1,6,9,10,12,14,15])
+# y1=np.array([2,5,2,5,2,5,2,5,2])
+# plt.subplot(2,1,2)
+# plt.plot(x,y)
+# plt.title("this is plot 2",loc='right')
 plt.suptitle("this is two plot")
 
 
 
 # plt.title("showing distance and time",fontdict=font1,loc='right')
 # plt.grid(color="red",ls=":",linewidth=1)
+
+# THIS IS EXAMPLES OF SCATTER PLOT
+
+x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])
+y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])
+plt.scatter(x, y,color="hotpink")
+
+#day two, the age and speed of 15 cars:
+x = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])
+y = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])
+plt.scatter(x,y,c='#FFBF00')
+
+
 plt.show()
+
+

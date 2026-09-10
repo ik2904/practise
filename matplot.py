@@ -18,11 +18,13 @@ x=np.array([1,2,4,6,8,10,12,14,15])
 y=np.array([2,5,2,5,2,5,2,5,2])
 plt.subplot(2,1,1)
 plt.plot(x,y)
+plt.title("this is plot 1 ")
 x=np.array([1,2,4,6,8,10,12,14,15])
 y=np.array([2,5,2,5,2,5,2,5,2])
 plt.subplot(2,1,2)
 plt.plot(x,y)
-
+plt.title("this is plot 2",loc='right')
+plt.suptitle("this is two plot")
 
 
 

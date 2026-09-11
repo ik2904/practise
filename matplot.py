@@ -24,7 +24,7 @@ font1 = {'color':'purple','size':15}
 # plt.subplot(2,1,2)
 # plt.plot(x,y)
 # plt.title("this is plot 2",loc='right')
-plt.suptitle("this is two plot")
+# plt.suptitle("this is two plot")
 
 
 
@@ -45,9 +45,9 @@ plt.suptitle("this is two plot")
 
 
 # THIS IS NOW EXAMPLE OF BAR GRAPGH
-# x=np.array(["student 1","student2","student3","student4","student5"])
-# y=np.array([3,1,2,1,10])
-# # plt.bar(x,y)
+x=np.array(["student 1","student2","student3","student4","student5"])
+y=np.array([3,1,2,1,10])
+plt.bar(x,y,alpha=0.3,color="hotpink")
 # # plt.bar(x,y,color="hotpink", width=0.5)
 
 
@@ -57,13 +57,13 @@ plt.suptitle("this is two plot")
 # x = [10, 12, 12, 15, 16, 17, 17, 18, 20, 22]
 # plt.hist(x)
 
-x=np.array([30,15,22,11,50])
-y=["maths","science","social science","hindi","english"]
-mexplode=[0.1,0.1,0.1,0.1,0.1]
-mycolors = ["black", "skyblue", "b", "#4CAF50","hotpink"]
+# x=np.array([30,15,22,11,50])
+# y=["maths","science","social science","hindi","english"]
+# mexplode=[0.1,0.1,0.1,0.1,0.1]
+# mycolors = ["black", "skyblue", "b", "#4CAF50","hotpink"]
 
-plt.pie(x,labels=y ,explode=mexplode ,shadow=True,colors = mycolors)
-plt.legend(title="subjects")
+# plt.pie(x,labels=y ,explode=mexplode ,shadow=True,colors = mycolors)
+# plt.legend(title="subjects")
 
 
 plt.show()
